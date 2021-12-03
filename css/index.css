@@ -1,0 +1,201 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.inline-block{
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+
+
+.logo{
+    width: 30%;
+    padding: 1%;
+    text-align:center;
+      
+}
+
+.name{
+    padding-left: 30px;
+}
+
+nav{
+    width:80%;
+    padding:1%
+}
+
+.ux{
+    background-color: pink;
+}
+
+ul.top{
+    width: 100%;
+    margin-left:auto; 
+    text-align:end; 
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:1%;
+    
+}
+
+.education{
+    width: 33%;
+}
+
+.skills{
+    width: 33%;
+}
+
+.software{
+    width:33%;
+}
+
+.titles{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-rows: 50%, 50%;
+    grid-template-columns: 50%, 50%;
+    grid-template-areas:
+    "mockup1 description1"
+    "mockup2 description2"
+    "mockup3 description3"
+
+}
+
+img{
+    width: 500px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.button1{
+    background-color: #CE9B5C;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.button2{
+    background-color: #ABB6DB;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.button3{
+    background-color: #D76143;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.footer{
+    background-color: pink ;
+    text-align:left;
+    height: 115px;
+    padding-top: 10px;
+    padding-left: 10px; 
+}
+
+ul.bottom{
+    margin-left: -40px;
+}
+
+.footerli1{
+    display: inline-block;
+    padding-right: 10px;
+    background-color: pink;  
+}
+
+.footerli2{
+    display: inline-block;
+    padding-right: 10px;  
+}
+
+.footerli3{
+    display: inline-block;
+    padding-right: 10px;  
+}
+
+.footerli4{
+    display: inline-block;
+    padding-right: 10px;  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+   
+    #flexContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1%;
+    }
+       #education {
+       width: 100%;
+       margin-right: 15px;
+       }
+       
+       #skills {
+       width: 100%;
+       margin-right: 15px;
+       }
+       
+       #software {
+       width: 100%;
+       margin-right: 15px;
+       }
+
+
+    #workGrid {
+       grid-template-columns: 50%, 50%;
+       grid-template-areas:
+       "mockup1"
+       "description1"
+       "mockup2"
+       "description2"
+       "mockup3"
+       "description3"
+    ;
+    }
+
+    #mockup{
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .description1{
+        margin-bottom: 20px;
+    }
+
+    .description2{
+        margin-bottom: 20px;
+    }
+
+    .description3{
+        margin-bottom: 40px;
+    }
+
+    
+
+}
+   
